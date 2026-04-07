@@ -14,7 +14,7 @@ Implemetation steps:
    Which events would you like to trigger this webhook? : select according on which event you want to trigger
    for this project, under "Let me select individual events", select "Issue comments" 
 
-4) Now when you comment anything expect /jira, no tickets will be created on jira portal
+4) Now when you comment anything except /jira, no tickets will be created on jira portal
 5) Only commenting /jira or anything contains /jira, tickets gonna create
 
 
