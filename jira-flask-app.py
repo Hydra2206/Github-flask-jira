@@ -60,7 +60,7 @@ def createJIRA():
     if "/jira" not in comment_body.lower():
         return jsonify({"message": "To create a JIRA ticket, comment /jira"}), 200
 
-    # Only runs if '/jira' is present
+    #  sends the actual request to Jira's API to create the issue. --- Only runs if '/jira' is present
     response = requests.request(
         "POST",
         url,
